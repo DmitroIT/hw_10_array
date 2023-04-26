@@ -31,7 +31,7 @@ let positiveItemLeng = positiveItem.length
 console.log(`Колличество положительных элементов: ${positiveItemLeng}`)
 
 //находим сумму положительных элементов
-let positiveItemSum = positiveItem.reduce((sum, current) => sum + current)
+let positiveItemSum = positiveItem.reduce((sum, current) => sum + current, 0)
 console.log(`Сумма положительных элементов: ${positiveItemSum}`)
 
 //находим только отрицательные элементы
